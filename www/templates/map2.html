@@ -1,0 +1,13 @@
+<ion-view title="Map" id="page15">
+  <ion-content padding="true" style="background: url(img/0veDVgZS2yjQKrbLTdHw_austin.jpg) no-repeat center;background-size:cover;" class="has-header">
+    <div class="spacer" style="height: 35px;"></div>
+    <creator-map-component options="{}" marker="true" location="228-298 Red River St Austin, TX 78701" zoom="12" style="display:block;position:relative;width:100%;height:300px;">
+      <ui-gmap-google-map ng-if="map.center" center="map.center" zoom="map.zoom" options="map.options">
+        <ui-gmap-marker coords="map.marker.coords" idkey="map.marker.id" options="map.marker.options"></ui-gmap-marker>
+      </ui-gmap-google-map>
+    </creator-map-component>
+    <a href-inappbrowser="https://www.google.com/maps/dir//228-298+Red+River+St,+Austin,+TX+78701/@30.2632501,-97.7734104,13z/data=!3m1!4b1!4m9!4m8!1m0!1m5!1m1!1s0x8644b5a8f2cc8a99:0x78ac9c304dee19e8!2m2!1d-97.7383908!2d30.2632548!3e0" id="map2-button9"
+      class="button button-positive  button-block">Open in Google Maps</a>
+    <a href-inappbrowser="http://maps.apple.com/?saddr=34.9803,-101.9188 &amp;daddr=30.307182,-97.755996" id="map2-button15" class="button button-positive  button-block">Open in Apple Maps</a>
+  </ion-content>
+</ion-view>
